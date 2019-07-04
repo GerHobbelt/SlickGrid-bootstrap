@@ -1,18 +1,24 @@
 {
-    "name": "slickgrid-bootstrap-dev",
-    "version": "0.1.0",
-    "dependencies": {
-        "yo": "*",
-        "grunt-cli": "*",
-        "bower": "*",
-        "grunt": ">=0.4",
-        "grunt-contrib-jshint": "*",
-        "grunt-contrib-copy": "*",
-        "grunt-contrib-uglify": "*",
-        "grunt-contrib-concat": "*",
-        "grunt-contrib-less": "*",
-        "grunt-contrib-watch": "*",
-        "grunt-collection-helper": "*",
-        "buster": "*"
-    }
+  "name": "slickgrid-bootstrap-dev",
+  "version": "0.1.0",
+  "dependencies": {
+    "yo": "*",
+    "grunt-cli": "*",
+    "bower": "*",
+    "grunt": ">=0.4",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-collection-helper": "*",
+    "buster": "*",
+    "snyk": "^1.190.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
