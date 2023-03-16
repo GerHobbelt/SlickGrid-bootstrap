@@ -1,0 +1,72 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - buster > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > evented-logger > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-test > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-test-cli > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > referee > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-server-cli > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-static > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-test-cli > buster-test > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-static > buster-test > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-test-cli > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-ci-agent > evented-logger > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > stream-logger > evented-logger > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-server-cli > ramp > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-test-cli > ramp > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-server-cli > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-server-cli > buster-cli > buster-configuration > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-test-cli > buster-cli > buster-configuration > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-static > buster-cli > buster-configuration > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-test-cli > buster-test > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-server-cli > buster-cli > stream-logger > evented-logger > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-test-cli > buster-cli > stream-logger > evented-logger > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-static > buster-cli > stream-logger > evented-logger > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-server-cli > buster-cli > buster-configuration > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-test-cli > buster-cli > buster-configuration > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-static > buster-cli > buster-configuration > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-server-cli > ramp > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-test-cli > ramp > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-server-cli > buster-cli > buster-configuration > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-test-cli > buster-cli > buster-configuration > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-server-cli > buster-cli > stream-logger > evented-logger > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-test-cli > buster-cli > stream-logger > evented-logger > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-server-cli > buster-cli > buster-configuration > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
+    - buster > buster-ci > buster-test-cli > buster-cli > buster-configuration > ramp-resources > lodash:
+        patched: '2023-03-16T16:51:58.000Z'
