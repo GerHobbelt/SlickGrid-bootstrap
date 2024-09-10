@@ -1,0 +1,216 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - buster > buster-server-cli > finalhandler > debug:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:debug:20170905'
+        path: buster > buster-server-cli > finalhandler > debug
+    - buster > buster-ci > buster-server-cli > finalhandler > debug:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:debug:20170905'
+        path: buster > buster-ci > buster-server-cli > finalhandler > debug
+  'npm:lodash:20180130':
+    - buster > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > lodash
+    - buster > evented-logger > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > evented-logger > lodash
+    - buster > buster-test > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-test > lodash
+    - buster > buster-test-cli > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-test-cli > lodash
+    - buster > referee > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > referee > lodash
+    - buster > buster-server-cli > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-server-cli > ramp-resources > lodash
+    - buster > buster-static > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-static > ramp-resources > lodash
+    - buster > buster-test-cli > buster-test > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-test-cli > buster-test > lodash
+    - buster > buster-static > buster-test > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-static > buster-test > lodash
+    - buster > buster-ci > buster-test-cli > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-ci > buster-test-cli > lodash
+    - buster > buster-ci > buster-ci-agent > evented-logger > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-ci > buster-ci-agent > evented-logger > lodash
+    - buster > buster-ci > stream-logger > evented-logger > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-ci > stream-logger > evented-logger > lodash
+    - buster > buster-server-cli > ramp > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-server-cli > ramp > ramp-resources > lodash
+    - buster > buster-test-cli > ramp > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-test-cli > ramp > ramp-resources > lodash
+    - buster > buster-ci > buster-server-cli > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-ci > buster-server-cli > ramp-resources > lodash
+    - buster > buster-server-cli > buster-cli > buster-configuration > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-server-cli > buster-cli > buster-configuration >
+          lodash
+    - buster > buster-test-cli > buster-cli > buster-configuration > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-test-cli > buster-cli > buster-configuration > lodash
+    - buster > buster-static > buster-cli > buster-configuration > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-static > buster-cli > buster-configuration > lodash
+    - buster > buster-ci > buster-test-cli > buster-test > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-ci > buster-test-cli > buster-test > lodash
+    - buster > buster-server-cli > buster-cli > stream-logger > evented-logger > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-server-cli > buster-cli > stream-logger >
+          evented-logger > lodash
+    - buster > buster-test-cli > buster-cli > stream-logger > evented-logger > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-test-cli > buster-cli > stream-logger > evented-logger
+          > lodash
+    - buster > buster-static > buster-cli > stream-logger > evented-logger > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-static > buster-cli > stream-logger > evented-logger >
+          lodash
+    - buster > buster-server-cli > buster-cli > buster-configuration > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-server-cli > buster-cli > buster-configuration >
+          ramp-resources > lodash
+    - buster > buster-test-cli > buster-cli > buster-configuration > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-test-cli > buster-cli > buster-configuration >
+          ramp-resources > lodash
+    - buster > buster-static > buster-cli > buster-configuration > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-static > buster-cli > buster-configuration >
+          ramp-resources > lodash
+    - buster > buster-ci > buster-server-cli > ramp > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-ci > buster-server-cli > ramp > ramp-resources >
+          lodash
+    - buster > buster-ci > buster-test-cli > ramp > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: buster > buster-ci > buster-test-cli > ramp > ramp-resources > lodash
+    - buster > buster-ci > buster-server-cli > buster-cli > buster-configuration > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-ci > buster-server-cli > buster-cli >
+          buster-configuration > lodash
+    - buster > buster-ci > buster-test-cli > buster-cli > buster-configuration > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-ci > buster-test-cli > buster-cli >
+          buster-configuration > lodash
+    - buster > buster-ci > buster-server-cli > buster-cli > stream-logger > evented-logger > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-ci > buster-server-cli > buster-cli > stream-logger >
+          evented-logger > lodash
+    - buster > buster-ci > buster-test-cli > buster-cli > stream-logger > evented-logger > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-ci > buster-test-cli > buster-cli > stream-logger >
+          evented-logger > lodash
+    - buster > buster-ci > buster-server-cli > buster-cli > buster-configuration > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-ci > buster-server-cli > buster-cli >
+          buster-configuration > ramp-resources > lodash
+    - buster > buster-ci > buster-test-cli > buster-cli > buster-configuration > ramp-resources > lodash:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          buster > buster-ci > buster-test-cli > buster-cli >
+          buster-configuration > ramp-resources > lodash
+  'npm:mime:20170907':
+    - buster > buster-server-cli > phantom-proxy > mime:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:mime:20170907'
+        path: buster > buster-server-cli > phantom-proxy > mime
+    - buster > buster-server-cli > phantom-proxy > form-data > mime:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:mime:20170907'
+        path: buster > buster-server-cli > phantom-proxy > form-data > mime
+    - buster > buster-ci > buster-server-cli > phantom-proxy > mime:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:mime:20170907'
+        path: buster > buster-ci > buster-server-cli > phantom-proxy > mime
+    - buster > buster-ci > buster-server-cli > phantom-proxy > form-data > mime:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:mime:20170907'
+        path: >-
+          buster > buster-ci > buster-server-cli > phantom-proxy > form-data >
+          mime
+  'npm:ms:20170412':
+    - buster > buster-server-cli > finalhandler > debug > ms:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:ms:20170412'
+        path: buster > buster-server-cli > finalhandler > debug > ms
+    - buster > buster-ci > buster-server-cli > finalhandler > debug > ms:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:ms:20170412'
+        path: buster > buster-ci > buster-server-cli > finalhandler > debug > ms
+  'npm:ws:20160920':
+    - buster > buster-server-cli > phantom-proxy > socket.io > socket.io-client > ws:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:ws:20160920'
+        path: >-
+          buster > buster-server-cli > phantom-proxy > socket.io >
+          socket.io-client > ws
+    - buster > buster-ci > buster-server-cli > phantom-proxy > socket.io > socket.io-client > ws:
+        patched: '2024-09-10T15:37:49.618Z'
+        id: 'npm:ws:20160920'
+        path: >-
+          buster > buster-ci > buster-server-cli > phantom-proxy > socket.io >
+          socket.io-client > ws
